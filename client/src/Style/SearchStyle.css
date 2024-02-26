@@ -1,0 +1,23 @@
+.text{
+    margin-top: 100px;
+}
+.card-title , .card-price{
+    font-size: medium;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.card-text{
+    margin: 5px;
+    font-size: small;
+}
+.bt{
+    height: 30px;
+    width: 100px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-left: 15px;
+    font-size: small;
+}
+.search-products{
+    margin-left: 30px;
+}

@@ -1,0 +1,132 @@
+body{
+  overflow-x: hidden;
+}
+/* .page{
+  background:url(../../../client/public/images/toy-shopping-cart-with-boxes-blue-background_339191-217.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+.banner-img {
+  margin-top: 100px;
+}
+
+.home-page h1 {
+  color: gray;
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+} */
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-title, .card-price {
+  display: inline-block;
+}
+
+/* .home-page  */
+.card-price {
+  margin-left: 20px;
+  color: green;
+  border:1px solid black;
+  padding:2px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.home-page .btn-dark , .btn-info {
+  border-radius: 5px;
+  width: 100px;
+  /* border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  font-size: small;
+  /* font-weight: bold; */
+}
+/* .btn-dark{
+  margin: 10px;
+} */
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+  font-size: small;
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+  transition: transform .5s ease-in-out;
+  /* transform: scale(0.9); */
+}
+
+.home-page .card-img-top {
+  height: 220px !important;
+}
+.home-page h5{
+  color: black;
+  font-size: medium;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.card-body{
+  padding: 5px;
+}
+
+/* ==================
+filters
+============== */
+
+
+.col-md-2 h4 {
+  margin-top: 100px;
+  color: gray !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+/* .ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+} */
+.main-div{
+  margin-left: 50px;
+}
+.ant-checkbox-wrapper {
+  margin: 2px;
+}
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.btn-danger {
+  background-color: black;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.loadmore {
+  border: 1px solid black;
+  border-radius: 5px;
+  color:white;
+  background-color: black;
+  /* font-weight: bold; */
+  /* font-size: 20px !important; */
+}
+.loadmore:hover{
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.product-card{
+  background-color: rgba(128, 128, 128, 0.097);
+  width:220px; 
+  height:340px;
+}
+.card-img-top{
+  width:218.5px;
+}
